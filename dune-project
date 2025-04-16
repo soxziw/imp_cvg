@@ -1,6 +1,6 @@
 (lang dune 3.12)
 
-(name proj1)
+(name imp_cvg)
 
 (generate_opam_files true)
 
@@ -11,12 +11,10 @@
 
 (maintainers "Junrui Liu")
 
-(documentation https://url/to/documentation)
-
 (using menhir 2.1)
 
 (package
- (name proj1)
+ (name imp_cvg)
  (synopsis "CS292C Project 1")
  (depends
   ocaml
